@@ -3,6 +3,6 @@ description: A page to share some Nix wisdom.
 theme: just-the-docs
 
 url: https://AuricViolet.github.io
-
+logo: "/assets/purplenix.png"
 aux_links:
   Template Repository: https://github.com/just-the-docs/just-the-docs-template
