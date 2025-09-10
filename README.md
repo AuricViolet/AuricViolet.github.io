@@ -1,6 +1,6 @@
-# just-the-docs-template
+# Violet Nix  
 
-This is a *bare-minimum* template to create a [Jekyll] site that:
+This is a *small* personal site for documenting recipes for NixOS configurations, as well as nix code.
 
 - uses the [Just the Docs] theme;
 - can be built and published on [GitHub Pages];
