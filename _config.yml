@@ -7,10 +7,6 @@ theme: just-the-docs
 url: https://AuricViolet.github.io
 favicon_ico: "/assets/favicon.ico"
 color_scheme: violet
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
-
 search_enabled: true
 
 search:
