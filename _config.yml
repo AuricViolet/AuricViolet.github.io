@@ -1,8 +1,7 @@
-titls: Violet Nix
 logo: "/assets/hader.png"
 
         
-description: A page to share some Nix wisdom.
+description: NixOS related documentation and recipes.
 theme: just-the-docs
 
 url: https://AuricViolet.github.io
