@@ -19,7 +19,7 @@ Do you find yourself copying and pasting large chunks of terminal code from tuto
 
 Then maybe, _just maybe_, NixOS is for you after all.
 
-# What is NixOS?
+## What is NixOS?
 
 NixOS is an immutable, reproducible, and functional operating system. I had no clue what this meant when I first came across it, so it's worth breaking down.
 
@@ -29,7 +29,7 @@ NixOS is an immutable, reproducible, and functional operating system. I had no c
 
 **Functional**: Configs allow you to setup your machine at a higher level, written in plain English. You tell the operating system what to do, and it deals with all the dirty and often confusing commands needed to do it behind the scenes.
 
-## Why did you make this?
+## What is this page?
 I was motivated to create this page after my own struggles with getting started with [NixOS]. The documentation is one of the biggest blind spots for Nix and [NixOS], and I figured, "what better way to contribute to the NixOS ecosystem than to share my own struggles and triumphs." I hope that this page might help others in the future to learn from my mistakes, or at least avoid painful troubleshooting.
 
 [NixOS]: https://nixos.org/
