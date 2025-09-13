@@ -10,7 +10,7 @@ Everyone loves a good distro comparison, in fact, there's a good chance you're w
 ### Pros
 - Reproducible
 - Immutable
-- Largest repository ([NixPKGS])
+- Largest repository [NixPKGS]
 - Painless backups
 - Atomic upgrades
 
@@ -24,7 +24,10 @@ Everyone loves a good distro comparison, in fact, there's a good chance you're w
 The benefits, in my mind at least, heavily outweigh the negatives, and if you're not afraid of unraveling the many mysteries of the snowy underworld that is NixOS, you can click below to dive headfirst into the snowflake shaped hole.
 
 [Dive In!](https://nextpage.com){: .btn .btn-purple }
+
+
 [NixPKGS]: https://github.com/NixOS/nixpkgs
+
 
 
 
