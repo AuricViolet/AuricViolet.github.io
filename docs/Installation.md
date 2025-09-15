@@ -2,7 +2,7 @@
 title: Installation
 layout: default
 nav_order: 2
-parent: Getting Started
+parent: The Road Ahead
 ---
 
 I'll only mention install briefly as there's really only one or two things to consider that can change your NixOS experience.
