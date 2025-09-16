@@ -18,12 +18,24 @@ We will be using this directory extensively for the remainder of our tutorials, 
 ### Symlinking /etc/nixos
 
 First we will move and rename /etc/nixos to /etc/nixosBackup, so we can replace it with a symlink.
+
 `sudo mv /etc/nixos /etc/nixosBackup`
 Next, we need to make a new folder somewhere, I'll use the home directory for ease of access, then copy all files from our Backup into the new folder:
+
 `mkdir ~/nixos`
 `sudo cp /etc/nixosBackup/* ~/nixos`
+
 Finally, create a symlink in /etc/nixos to our new nixos folder.
 `sudo ln -s ~/nixos /etc`
+
+Here are all the commands together:
+
+``` bash{% raw %}
+sudo mv /etc/nixos /etc/nixosBackup
+mkdir ~/nixos
+sudo cp /etc/nixosBackup/* ~/nixos
+sudo ln -s ~/nixos /etc 
+```
 
 Awesome! Now we can freely edit all our nix files from ~/nixos.
 
