@@ -30,13 +30,14 @@ Finally, create a symlink in /etc/nixos to our new nixos folder.
 
 Here are all the commands together:
 
+{% highlight shell %}
 ```shell
 sudo mv /etc/nixos /etc/nixosBackup
 mkdir ~/nixos
 sudo cp /etc/nixosBackup/* ~/nixos
 sudo ln -s ~/nixos /etc 
 ```
-
+{% endhighlight %}
 Awesome! Now we can freely edit all our nix files from ~/nixos.
 
 
