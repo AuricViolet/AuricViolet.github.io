@@ -30,7 +30,7 @@ Finally, create a symlink in /etc/nixos to our new nixos folder.
 
 Here are all the commands together:
 
-```
+```shell
 sudo mv /etc/nixos /etc/nixosBackup
 mkdir ~/nixos
 sudo cp /etc/nixosBackup/* ~/nixos
