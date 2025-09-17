@@ -6,7 +6,7 @@ parent: The Road Ahead
 ---
 
 ### Initial Setup
-Awesome, we have a working fresh NixOS Install.
+So before we can really start there's a small bit of housekeeping...
 
 The first thing I should tell you about NixOS is the way we manage the OS.
 Unlike most every other OS, NixOS for the most part, has all of it's configs written in a single directory `/etc/nixos`.
