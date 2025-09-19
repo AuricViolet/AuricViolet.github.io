@@ -1,5 +1,5 @@
 ---
-title: The Road Ahead
+title: Preparation
 layout: default
 nav_order: 2
 ---
@@ -27,6 +27,7 @@ The benefits, in my mind at least, heavily outweigh the negatives, and if you're
 
 
 [NixPKGS]: https://github.com/NixOS/nixpkgs
+
 
 
 
