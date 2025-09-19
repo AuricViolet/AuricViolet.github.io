@@ -15,6 +15,6 @@ The purpose of this blog is to hopefully serve as a map for Nix seekers and adve
 
 Would you look at that? It's already starting to snow. 
 
-[We had better be on our way.]
+Come, [we had better be on our way].
 
-[We had better be on our way]: https://auricviolet.github.io/docs/Installation.html
+[we had better be on our way]: https://auricviolet.github.io/docs/Installation.html
