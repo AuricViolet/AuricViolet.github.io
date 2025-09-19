@@ -17,4 +17,4 @@ Would you look at that? It's already starting to snow.
 
 Come, [we had better be on our way].
 
-[we had better be on our way]: https://auricviolet.github.io/docs/Installation.html
+[we had better be on our way]: https://auricviolet.github.io/docs/Getting%20Started.html
