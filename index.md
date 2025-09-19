@@ -11,10 +11,10 @@ Before you lies a fork in the road of your Linux pilgrimage - to your left: a we
 
 If you're still here, I assume you've already begun to head down the darker path, whether you know it yet or not. The path has a way of drawing people in, you see.
 
-The purpose of this blog is to hopefully serve as a map for seekers and adventurers. To guide you through the treacherous wood and into the chilly mountains of NixOS.
+The purpose of this blog is to hopefully serve as a map for Nix seekers and adventurers. To guide you through the treacherous wood and into the wondrous chilly mountains of NixOS.
 
 Would you look at that? It's already starting to snow. 
 
-We had better be on our way.
+[We had better be on our way.]
 
-
+[We had better be on our way]: https://auricviolet.github.io/docs/Installation.html
