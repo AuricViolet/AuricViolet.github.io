@@ -15,6 +15,6 @@ The purpose of this blog is to hopefully serve as a map for seekers and adventur
 
 Would you look at that? It's already starting to snow. 
 
-You'd better be on your way.
+We had better be on our way.
 
 
