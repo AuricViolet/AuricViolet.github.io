@@ -11,7 +11,7 @@ Before you lies a fork in the road of your Linux journey - to your left: a well-
 
 If you're still here, I assume you've already begun to head down the darker path, whether you know it yet or not. The path has a way of drawing people in, you see.
 
-The purpose of this blog along with my personal config for reference is to hopefully serve as a map for Nix seekers and adventurers. To guide you through the treacherous wood and into the wondrous chilly mountains of NixOS.
+The purpose of this blog along with [my personal config for reference] is to hopefully serve as a map for Nix seekers and adventurers. To guide you through the treacherous wood and into the wondrous chilly mountains of NixOS.
 
 Would you look at that? It's already starting to snow. 
 
