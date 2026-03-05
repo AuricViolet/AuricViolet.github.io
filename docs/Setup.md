@@ -9,11 +9,11 @@ parent: Preparation
 So before we can really start there's a small bit of housekeeping...
 
 The first thing I should tell you about NixOS is the way we manage the OS.
-Unlike most every other OS, NixOS for the most part, has all of it's configs written in a single directory `/etc/nixos`.
+Unlike most every other OS, NixOS for the most part, has all of it's configurations written in a few files in a single directory `/etc/nixos` using nix code.
 
-This houses our primeval `configuration.nix` which is the beginning of our entire operating system. If you're already poking around in there, you may have noticed `hardware-configuration.nix`. Of the two, we will mainly be dealing with `configuration.nix`. `hardware-configuration.nix` is generally not edited directly very often.
+This houses our primeval `configuration.nix` which is the beginning of our entire operating system. If you're already poking around in there, you may have noticed `hardware-configuration.nix`. Of the two, we will mainly be dealing with `configuration.nix`. `hardware-configuration.nix` is generally not edited directly very often, and it is best to let the machine auto-create this at install.
 
-We will be using this directory extensively for the remainder of our tutorials, so it's good to get familiar with it. It turns out this folder has special permissions, requiring an admin password to edit them. Our first step is to find a way around this so we don't have to edit these files directly from `/etc/nixos`, and we don't have to edit the permissions.
+We will be using this directory extensively for the remainder of our tutorials, so it's good to get familiar with it. It turns out this folder has special permissions, requiring an admin password to edit them. Our first step is to find a way around this so we don't have to edit these files directly from `/etc/nixos`, and we don't have to edit the permissions on those original files.
 
 ### Symlinking /etc/nixos
 
@@ -41,6 +41,8 @@ mkdir ~/nixos
 sudo cp /etc/nixosBackup/* ~/nixos
 sudo ln -s ~/nixos /etc 
 ```
+Note: if you are still having password prompts, you can run ```sudo chmod 777 ~/nixos -R``` as a quick way to grant yourself full access to the directory for editing.
+
 Awesome! Now we can freely edit all our nix files from ~/nixos.
 
 
