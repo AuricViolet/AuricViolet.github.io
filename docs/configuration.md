@@ -33,10 +33,12 @@ NixOS needs to rebuild the system each time you change your configuration, this 
 
 This command tells NixOS to read the config, line by line, and rebuild it according to any changes made, then, switch to the new system build. Once complete, in that terminal you'll see that we can now run`kittysay Congratulations`. 
 
-Congrats! You have now created your first **generation**, you'll have many many more, and with each one you'll get closer to your perfect config. 
+Congrats! You have now created your first **generation**, you'll have many many more, and with each one you'll get closer to your perfect config. Note that you may need to reboot after a rebuild switch if you are making any changes to drivers / boot / kernel. 
 
 With each reboot, you'll see a list of previous generations in your boot menu, this will allow you to quickly revert to a previous generation if anything causes the new generation to fail or bug out. 
 
-[NixPKGS Search]: https://search.nixos.org/packages?channel=25.05&
-[NixOS Options]: https://search.nixos.org/options?channel=25.05&
+From here you may want to start by configuring some other packages and options, that you'll find a bit more useful than kittysay.
+
+[NixPKGS Search]: https://search.nixos.org/packages?channel=25.11&
+[NixOS Options]: https://search.nixos.org/options?channel=25.11&
 [NixOS Wiki]: https://wiki.nixos.org/wiki/NixOS_Wiki
